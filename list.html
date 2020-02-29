@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <h1>Список товаров</h1>
+        <table>
+            <tr>
+                <td><ul>
+                    <li>
+                        <label for="fishTrue">Fish</label>
+                    </li>
+                </ul></td> 
+                <td><input type="checkbox" name="fishTrue" id="fishTrue"></td>
+            </tr>
+            <tr>
+                <td><ul>
+                    <li>
+                        <label for="chickenTrue">Chicken</label>
+                    </li>
+                </ul></td> 
+                <td><input type="checkbox" name="chickenTrue" id="chickenTrue"></td>                
+            </tr>            
+            <tr>
+                <td><ul>
+                    <li>
+                        <label for="fatTrue">Fat</label>
+                    </li>
+                </ul></td> 
+                <td><input type="checkbox" name="fatTrue" id="fatTrue" required></td>                
+            </tr>
+            <tr>
+                <td><ul>
+                    <li>
+                        <label for="toothPasteTrue">ToothPaste</label>
+                    </li>
+                </ul></td>
+                <td><select name="toothPasteTrue" id="toothPasteTrue">
+                    <option value="None" disabled selected hidden>None</option>
+                    <option value="lacalut">Lacalut</option>
+                    <option value="colgate">Colgate</option>
+                    <option value="blend-a-med">Blend-a-med</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><ul>
+                    <li>
+                        Porridge
+                    </li>
+                </ul></td>
+                <td><label><input type="radio" name="PorridgeTrue"> Rice<br></label>
+                <label><input type="radio" name="PorridgeTrue"> Buckwheat porridge<br></label>
+                <label><input type="radio" name="PorridgeTrue"> Wheat porridge<br></label></td>
+            </tr>
+        </table>
+        <input type="submit" value="Done">
+    </form>
+</body>
+</html>
